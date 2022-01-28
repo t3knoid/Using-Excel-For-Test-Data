@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CribbageLibTest", "CribbageLibTest.csproj", "{46751067-7195-46AE-96C7-E13FB99C3F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CribbageLib", "..\CribbageLib\CribbageLib.csproj", "{8D78587F-0DC1-4BAD-AF90-D2F945BC3739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CribbageApp", "..\CribbageApp\CribbageApp.csproj", "{140C6F01-261F-4999-813F-686587A4C789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46751067-7195-46AE-96C7-E13FB99C3F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46751067-7195-46AE-96C7-E13FB99C3F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46751067-7195-46AE-96C7-E13FB99C3F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46751067-7195-46AE-96C7-E13FB99C3F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D78587F-0DC1-4BAD-AF90-D2F945BC3739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D78587F-0DC1-4BAD-AF90-D2F945BC3739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D78587F-0DC1-4BAD-AF90-D2F945BC3739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D78587F-0DC1-4BAD-AF90-D2F945BC3739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140C6F01-261F-4999-813F-686587A4C789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140C6F01-261F-4999-813F-686587A4C789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140C6F01-261F-4999-813F-686587A4C789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140C6F01-261F-4999-813F-686587A4C789}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
