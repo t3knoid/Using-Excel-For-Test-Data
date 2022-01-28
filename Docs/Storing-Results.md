@@ -1,6 +1,6 @@
 # Storing Results
 
-Now that I've gotten all my test case data into memory, I am ready to create a new Excel spreadsheet to store my test case results. The code is similar to my other Excel tasks except this time I use an OleDbCommand object (see [Figure 6](Figure 6.md).
+Now that I've gotten all my test case data into memory, I am ready to create a new Excel spreadsheet to store my test case results. The code is similar to my other Excel tasks except this time I use an OleDbCommand object (see [Figure 6](Figure%206.md)).
 
 I begin by fetching the system date and time so that I can create a time-stamped results file name. I pass an "s" argument to the ToString() method so I will get a date-time string in a format that is sortable (such as 2006-07-23T16:56:44). But because the : character is not valid in a file name, I use the String.Replace method to replace all : characters with hyphens.
 
@@ -38,10 +38,7 @@ Console.WriteLine("===========================================");
 Now the main test loop iterates through each row of the DataTable object, as shown in the following:
 
 ```C# 
-for (int row = 0;
-row <
-dt.Rows.Count;
-++row)
+for (int row = 0;row <dt.Rows.Count;++row)
 ```
 
 Inside the main test loop, I first perform a rudimentary check to make sure I have a valid test case. Then I fetch each column of the current row of the DataTable and store into the variables with more meaningful names that I declare just outside the loop:
