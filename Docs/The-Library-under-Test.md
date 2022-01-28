@@ -1,6 +1,6 @@
 # The Library under Test
 
-In order to test a software component with automation, you must know at a bare minimum the component's interfaces. The code in [Figure 3](Figure 3.md) shows the structure of my CribbageLib class library. Let me emphasize that I am deliberately not adhering to standard .NET coding guidelines so I can keep the size of my library under test small.
+In order to test a software component with automation, you must know at a bare minimum the component's interfaces. The code in [Figure 3](Figure%203.md) shows the structure of my CribbageLib class library. Let me emphasize that I am deliberately not adhering to standard .NET coding guidelines so I can keep the size of my library under test small.
 
 The CribbageLib library contains a Card class to represent a single card. I use int fields rank, suit, and value to represent the rank (such as ace, deuce, three), the suit (club, diamond, heart, spade), and value in cribbage (aces are worth 1 point, deuces 2, face cards are 10 points). The Card constructor accepts a string (such as "Ac" for the ace of clubs), parses the two input characters, and stores values for the three corresponding member fields. For convenience when writing a ToString() method, I also store a string field named image, which is just the input argument. The Hand class is essentially an array of five Card objects, representing the four cards a player holds plus the one common card shared by both players. The Hand constructor accepts five Card objects.
 
