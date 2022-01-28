@@ -1,6 +1,6 @@
 # Creating the Test Harness
 
-For clarity, I've combined the code used to perform several different tasks with Excel test case data into a single test harness program. [Figure 5](Figure 5.md) shows the structure of the test harness that generated the output shown in Figure 2.
+For clarity, I've combined the code used to perform several different tasks with Excel test case data into a single test harness program. [Figure 5](Figure%205.md) shows the structure of the test harness that generated the output shown in Figure 2.
 
 I begin my test harness by adding a project reference to the CribbageLib.dll component that houses my library under test. Then I add a using statement for the namespaces in the library so that I can reference the Card and Hand classes without having to fully qualify their names. In addition, I add a using statement to the System.Data.OleDb namespace, which contains classes that can be used to connect to, access, and manipulate OLE DB data sources, including Excel spreadsheets. I also add a using statement to the System.Data namespace so I can easily instantiate and use a DataTable object to act as an in-memory data store for my test case data from Excel. Because this column is essentially a tutorial, for simplicity I organize my test harness into a single Main method—you, however, may want to consider making your harnesses more modular.
 
