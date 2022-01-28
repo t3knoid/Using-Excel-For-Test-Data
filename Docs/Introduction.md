@@ -5,7 +5,7 @@ In this month's column I will show you how to use Excel for test automation stor
 
 Suppose you are writing a cribbage game like the one shown in Figure 1. In cribbage, your hand consists of five cards—four in your hand and one shared by you and your opponent. Your point score is determined by a number of factors, such as the number of pairs in your hand and the number of card combinations you hold that sum to 15. Each pair is worth 2 points and each set of cards that sum to 15 is worth 2 points. Face cards count as 10, aces count as 1, and all other cards count as their point value. For the hand shown in Figure 1, the value of the pairs is 2 because there is a single pair of 7s. The value of the 15s is 6 because there are three combinations of cards that sum to 15: the 7 of diamonds and 8 of clubs; the 7 of clubs and 8 of clubs; the 7 of diamonds, 7 of clubs, and ace of hearts.
 
-[Figure 1: App Under Test](fig01.gif)
+![Figure 1: App Under Test](fig01.gif)
 
 Behind the scenes, the game UI calls into a CribbageLib class library that you've written. This library houses classes to represent a Card object and a Hand object, as well as methods and properties, such as Hand.ValueOfPairs and Hand.ValueOf15s.
 
