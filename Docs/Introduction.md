@@ -13,7 +13,7 @@ In this column, I will present techniques for using Excel to hold test case data
 
 In the sections that follow, I will briefly describe the class library under test so you will understand how to set up appropriate Excel spreadsheets for storage. I will present the code for the simple test harness that produced the results shown in Figure 2. I will explain the code in detail so you will be equipped to modify and extend the code to use Excel to meet your own needs. And I will conclude with a very brief discussion of how and when to use Excel for test storage, looking at the pros and cons of this approach when compared to other types of test storage (SQL Server™ databases, text files, and XML files in particular). I believe you'll find the ability to use Excel for lightweight test storage a useful addition to your software testing, development, and management tool kit.
 
-[Figure 2: Using Excel for Test Data Storage](fig02.gif)
+![Figure 2: Using Excel for Test Data Storage](fig02.gif)
 
 - [The Library Under Test](The Library under Test.md)
 - [The Test Case Data File](The Test case Data File.md)
